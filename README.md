@@ -2,7 +2,7 @@
 ![LOGO DO PROJETO](https://github.com/VitorHSR/finmap-frontend/blob/master/Documentos/Fotos/Logo.png)
 
 ### OBJETIVO
-Este repositório é destinado ao trabalho da disciplina de Engenharia de Software II da Faculdade Senac Pelotas.
+Este repositório é destinado ao trabalho da disciplina de Algoritmos e Programção III da Faculdade Senac Pelotas.
 
 Este é o Front-End para o sistema Finmap.
 
