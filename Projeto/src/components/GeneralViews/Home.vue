@@ -11,7 +11,7 @@
 
 </template>
 
-<script> 
+<script>
 import Header from '../Header/Header'
 
     export default{
