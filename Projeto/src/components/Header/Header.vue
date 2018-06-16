@@ -1,11 +1,12 @@
 <template> 
-<div>
-  <b-navbar variant="faded" type="light">
-    <b-navbar-brand href="#">
-      <img src="https://github.com/VitorHSR/finmap-frontend/blob/master/Documentos/Fotos/Logo.png" class="d-inline-block align-top" alt="FINMAP">
-    </b-navbar-brand>
-  </b-navbar>
-</div>
+    <div>
+        <b-navbar variant="danger" type="dark">
+          <b-navbar-brand href="#">
+            <img src="../../assets/logo2.png" class="d-inline-block align-top" alt="FINMAP" id="img">
+            Financial Map
+          </b-navbar-brand>
+        </b-navbar>
+      </div>
 </template>
 
 <script> 
@@ -13,3 +14,9 @@
 
 }   
 </script>
+
+<style>
+  #img {
+    max-width: 80px;
+  }
+</style>
