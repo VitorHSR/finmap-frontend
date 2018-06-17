@@ -13,7 +13,7 @@
             congue felis in faucibus.
         </b-media>
         <b-media left-align vertical-align="center">
-              <b-img slot="aside" blank blank-color="#ccc" width="300" alt="Item 2" />
+              <b-img thumbnail slot="aside" blank blank-color="#ccc" width="300" alt="Item 2" />
               <h5 class="mt-0 mb-1">Item 2</h5>
               Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
               sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra
@@ -21,7 +21,7 @@
               congue felis in faucibus.
         </b-media>
         <b-media right-align vertical-align="center">
-                <b-img slot="aside" blank blank-color="#ccc" width="300" alt="Item 3" />
+                <b-img thumbnail slot="aside" blank blank-color="#ccc" width="300" alt="Item 3" />
                 <h5 class="mt-0 mb-1">Item 3</h5>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
                 sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra
