@@ -11,10 +11,10 @@ O sistema tem como objetivo proporcionar ao usuário um controle melhor de seus 
 O repositório da API deste projeto pode ser encontrado aqui: https://github.com/PauloHartwig/finmap-api
 
 ### INTEGRANTES 
-- Alessandro Macedo (API)
+- Alessandro Macedo (Front-End)
 - Paulo Henrique (API)
 - Vitor Hugo (Front-End)
 
 ### TECNOLOGIAS UTILIZADAS
 - Linguagem: Javascript
-- Biblíoteca: React.js
+- Framework: Vue.js
