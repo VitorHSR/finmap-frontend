@@ -61,11 +61,11 @@ import Header from '../Header/Header'
 
 #div3 {
     margin-top: 3%;
-    margin-left: 47.5%;
+    text-align: center;
 }
 
 #div4 {
     margin-top: 1.5%;
-    margin-left: 43.5%;
+    text-align: center;
 }
 </style>

@@ -26,7 +26,7 @@
               </b-dropdown-item>
 
               <b-dropdown-item>
-                <router-link id="router2" v-bind:to="{path:'/login'}"> 
+                <router-link id="router2" v-bind:to="{path:'/cadastro'}"> 
                   Cadastrar-se
                 </router-link>
               </b-dropdown-item>

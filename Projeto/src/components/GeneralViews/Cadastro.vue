@@ -8,19 +8,36 @@
     <b>CADASTRO</b>
 </div>
 
+<form id="form2">
+  <div class="form-group row">
+
+    <div class="col-sm-4">
+      E-mail:
+      <input type="email" class="form-control" id="email" placeholder="Digite seu email...">
+    </div>
+
+    <div class="col-sm-4">
+      Senha:
+      <input type="password" class="form-control" id="senha" placeholder="Digite sua senha...">
+    </div>
+
+    <div class="col-sm-4">
+      Confirmar Senha
+      <input type="password" class="form-control" id="senha" placeholder="Digite sua senha novamente...">
+    </div>
+
+  </div>
+</form>
 
 <div id="div1">
-    E-mail:
-    <b-form-input type="email" placeholder="Digite seu E-mail..."></b-form-input>
+  <b-button variant="outline-primary">REGISTRAR</b-button>
 </div>
 
 <div id="div2">
-    Senha: 
-    <b-form-input type="password" placeholder="Digite sua Senha..."></b-form-input>   
-</div>
-
-<div id="div3">
-  <b-button variant="outline-primary">REGISTRAR</b-button>
+    Já possui cadastro?
+    <router-link v-bind:to="{path:'/login'}">
+    Entrar
+    </router-link>
 </div>
 
 </div>
@@ -46,14 +63,20 @@ import Header from '../Header/Header'
     text-align: center;
 }
 
-#div1, #div2 {
-    width: 30%;
-    margin-left: 35%;
-    margin-bottom: 1.5%;
+#div1 {
+    margin-top: 3%;
+    text-align: center;
 }
 
-#div3 {
-    margin-top: 3%;
-    margin-left: 47.5%;
+#div2 {
+    margin-top: 1%;
+    text-align: center;
 }
+
+#form2 {
+    border-left: 100px solid;
+    border-right: 100px solid;
+    border-color: white;
+}
+
 </style>
