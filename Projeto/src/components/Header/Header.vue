@@ -6,16 +6,17 @@
             Financial Map
           </b-navbar-brand>
 
-          <b-navbar-brand href="#"> 
+          <b-navbar-brand class="ml-auto" href="#"> 
             Como Funciona 
           </b-navbar-brand>
-              
+
           <b-nav-item-dropdown text="Login" id="li1" right>
               <b-dropdown-item href="#">Fazer Login</b-dropdown-item>
               <b-dropdown-item href="#">Cadastrar-se</b-dropdown-item>
           </b-nav-item-dropdown>
-
+          
         </b-navbar>
+
     </div>
 </template>
 
@@ -34,4 +35,10 @@
     list-style: none;
   }
 
+  #divnav {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 </style>

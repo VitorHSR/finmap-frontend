@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/GeneralViews/Home'
+import Login from '@/components/GeneralViews/Login'
 import BootstrapVue from 'bootstrap-vue'
 
 Vue.use(BootstrapVue);
@@ -16,6 +17,11 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Home
+    },
+    {
+      path: '/',
+      name: 'Login',
+      component: Login
     }
   ]
 })
