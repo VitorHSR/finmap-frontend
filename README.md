@@ -8,10 +8,7 @@ Este é o Front-End para o sistema Finmap.
 
 O sistema tem como objetivo proporcionar ao usuário um controle melhor de seus gastos, podendo gerenciar suas contas e definir metas para alcançar. Tudo isso através de lançamentos no sistema, como receitas e despesas.
 
-O repositório da API deste projeto pode ser encontrado aqui: https://github.com/PauloHartwig/finmap-api
-
 ### INTEGRANTES 
-- Alessandro Macedo (Front-End)
 - Paulo Henrique (API)
 - Vitor Hugo (Front-End)
 
